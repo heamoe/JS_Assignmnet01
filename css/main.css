@@ -1,0 +1,80 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Container for the columns */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+/* Column styling */
+.column {
+    background-color: #ffefd5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Button styling */
+button {
+    background-color: #ff3c16;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+}
+
+button:hover {
+    background-color: #e22d10;
+}
+
+/* Sentence button on the right side */
+.sentence-button {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+/* Full sentence button */
+#speakSentenceButton {
+    padding: 20px;
+    font-size: 18px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#speakSentenceButton:hover {
+    background-color: #005f6b;
+}
+#resetButton {
+    padding: 20px;
+    font-size: 18px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#resetButton:hover {
+    background-color: #005f6b;
+}
